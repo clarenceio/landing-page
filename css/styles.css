@@ -3,3 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    width: 80%;
+    max-width: 1200px; /* Or whatever maximum width you prefer */
+    margin: 0 auto;
+    /* background-color: #f00; */
+}
+
+a {
+    text-decoration:  none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff; /* Centered content box with a white background */
+    padding: 20px;
+}
