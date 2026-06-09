@@ -5,7 +5,8 @@
 }
 
 body {
-    width: 80%;
+    font-family: "Roboto", sans-serif;
+    width: 70%;
     max-width: 1200px; /* Or whatever maximum width you prefer */
     margin: 0 auto;
     /* background-color: #f00; */
@@ -19,9 +20,27 @@ ul {
     list-style-type: none;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    background-color: #ffffff; /* Centered content box with a white background */
-    padding: 20px;
+header {
+    display: flex;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+
+    .main-menu {
+        display: flex;
+        gap: 40px;
+    }
+
+    .main-menu a {
+        font-size: 18px;
+        color: #e5e7eb;
+    }
+
+    .logo {
+        /* color: rebeccapurple; */
+        color: #f9faf8;
+        font-size: 24px;
+        font-weight: 900;
+        font-style: italic;
+    }
 }
