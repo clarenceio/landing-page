@@ -44,3 +44,43 @@ header {
         font-style: italic;
     }
 }
+
+/* hero section */
+.hero {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+
+    .right-hero {
+        flex: 1;
+    }
+
+    .right-hero .main-title {
+        font-size: 48px;
+        font-weight: 900;
+        color: #f9faf8;
+    }
+
+    .right-hero .sub-text {
+        font-size: 18px;
+        color: #f9faf8;
+    }
+
+    .hero-img {
+        flex: 1;
+    }
+
+    .hero-img img{
+        width: 500px;
+        height: 250px;;
+    }
+}
+
+/* background-color for both header and hero */
+.header {
+    background-color: #1f2937;
+}
+
+.hero {
+    background-color: #1f2937;
+}
