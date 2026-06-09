@@ -6,10 +6,6 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    width: 70%;
-    max-width: 1200px; /* Or whatever maximum width you prefer */
-    margin: 0 auto;
-    /* background-color: #f00; */
 }
 
 a {
@@ -20,7 +16,18 @@ ul {
     list-style-type: none;
 }
 
-header {
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px auto;
+}
+
+.header {
+    background-color: #1f2937;
+}
+
+.header .container {
     display: flex;
     padding: 16px;
     justify-content: space-between;
@@ -46,28 +53,24 @@ header {
 }
 
 /* hero section */
-.hero {
+.hero .container {
     display: flex;
     gap: 20px;
     padding: 20px;
 
     .right-hero {
-        flex: 1;
+        margin-right: auto;
     }
 
-    .right-hero .main-title {
+.right-hero .main-title {
         font-size: 48px;
         font-weight: 900;
         color: #f9faf8;
     }
-
+    
     .right-hero .sub-text {
         font-size: 18px;
         color: #f9faf8;
-    }
-
-    .hero-img {
-        flex: 1;
     }
 
     .hero-img img{
@@ -77,9 +80,7 @@ header {
 }
 
 /* background-color for both header and hero */
-.header {
-    background-color: #1f2937;
-}
+
 
 .hero {
     background-color: #1f2937;
