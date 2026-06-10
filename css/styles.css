@@ -106,10 +106,9 @@ ul {
     gap: 10px;
     width: 150px;
 
-    .box {
+    img {
         width: 150px;
         height: 150px;
-        border: 2px solid ;
         border-radius: 10px;
     }
 
