@@ -168,3 +168,13 @@ ul {
         border: 1px solid #f9faf8;
     }
 }
+
+/* footer */
+.footer {
+    background-color: #1f2937;
+    
+    p {
+        color: #e5e7eb;
+        text-align: center;
+    }
+}
