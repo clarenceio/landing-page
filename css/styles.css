@@ -88,6 +88,9 @@ ul {
 }
 
 /* info-section */
+.info {
+    margin-bottom: 60px;
+}
 .info-title {
     text-align: center;
     margin-bottom: 50px;
@@ -114,5 +117,28 @@ ul {
 
     p {
         text-align: center;
+    }
+}
+
+/* quote section */
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote .container {
+    width: 60%;
+
+    .quote-text {
+        font-size: 36px;
+        color: #1f2937;
+        font-weight: 300;
+        text-align: justify;
+    }
+    
+    .author {
+        font-size: 24px;
+        color: #1f2937;
+        font-weight: 600;
+        text-align: right;
     }
 }
